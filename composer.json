@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "vanchelo/phalcon-mailer": "1.1.0",
+    "vanchelo/phalcon-mailer": "2.0.1",
     "zelenin/smsru": "4.0.2"
   }
 }

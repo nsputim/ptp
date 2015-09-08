@@ -153,17 +153,17 @@
     },
     {
         "name": "vanchelo/phalcon-mailer",
-        "version": "1.1.0",
-        "version_normalized": "1.1.0.0",
+        "version": "2.0.1",
+        "version_normalized": "2.0.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/vanchelo/phalcon-mailer.git",
-            "reference": "b796913b692081f70874a6a4cd7cbb5806b6e603"
+            "reference": "d48fa1d6aa34bd83bfc4cb1cbdca5d9d8793dedf"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/vanchelo/phalcon-mailer/zipball/b796913b692081f70874a6a4cd7cbb5806b6e603",
-            "reference": "b796913b692081f70874a6a4cd7cbb5806b6e603",
+            "url": "https://api.github.com/repos/vanchelo/phalcon-mailer/zipball/d48fa1d6aa34bd83bfc4cb1cbdca5d9d8793dedf",
+            "reference": "d48fa1d6aa34bd83bfc4cb1cbdca5d9d8793dedf",
             "shasum": ""
         },
         "require": {
@@ -171,7 +171,10 @@
             "php": ">=5.4.0",
             "swiftmailer/swiftmailer": "~5.3"
         },
-        "time": "2014-11-29 15:24:54",
+        "require-dev": {
+            "phalcon/devtools": "~2.0"
+        },
+        "time": "2015-09-07 20:34:51",
         "type": "library",
         "installation-source": "source",
         "autoload": {
